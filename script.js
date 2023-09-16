@@ -97,8 +97,11 @@ function sortByAge() {
 
 // 9. Update Profession
 function updateJohnsProfession() {
-  arr[0].profession = "Admin";
-  console.log(arr[0]);
+  let prof = prompt("Enter new Profession","");
+ 
+    arr[0].profession = prof;
+    console.log(arr[0]);
+  
 }
 
 // 10. Profession Count
